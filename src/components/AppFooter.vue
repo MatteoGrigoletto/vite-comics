@@ -1,18 +1,30 @@
 <script>
+import AppInformation from './another-comp/AppInformation.vue';
+
 export default {
     name: 'AppFooter',
   data() {
     return {
       title: 'ciao'
     }
+  },
+  components:{
+    AppInformation,
   }
 }
 </script>
 
 <template>
-<p>{{title}}</p>
+    <section class="first-section-footer">
+            <AppInformation/>
+    </section>
+    <section class="second-section-footer">
+
+    </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
 
 

@@ -40,8 +40,6 @@ export default {
 .second-section-main{
   background-color: var(--bg_second_section);
 }
-  
-
 </style>
 
 

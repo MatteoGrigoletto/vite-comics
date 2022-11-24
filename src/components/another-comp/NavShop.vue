@@ -67,6 +67,10 @@ ul{
                 width: 70px;
                 padding-right: 10px;
             }    
+            a{
+                text-decoration: none;
+                color: var(--primary_color);
+            }
         }
     }
 </style>
