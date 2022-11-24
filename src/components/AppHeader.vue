@@ -31,15 +31,16 @@ export default {
 
 header{
 padding: 20px 0px;
-  .container{
-  width: 1300px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
+    .first-section-header{
+        background-color: var(--primary_color);
+          .container{
+          width: 1300px;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    }
 }
 </style>
 

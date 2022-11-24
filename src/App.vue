@@ -13,11 +13,18 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <AppHeader/>
-  </div>
+      <AppHeader/>
+ 
+      <AppMain/>
+
+    
+
+  
+  
 </template>
 
 <style lang="scss">
 @import './style/globalScss.scss';
+
+
 </style>
