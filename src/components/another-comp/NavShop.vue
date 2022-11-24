@@ -3,6 +3,7 @@ export default{
     name:'navShop',
     data(){
         return{
+            list: '../../assets/img/buy-comics-digital-comics.png'
         }
     }
 }

@@ -32,12 +32,24 @@
     ul {
         display: flex;
         list-style: none;
+        li{
+            position: relative;
 
-        a {
-            text-decoration: none;
-            padding: 0px 10px;
-            color: inherit;
-            font-weight: bold;
+            &:first-child::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -52px;
+                    right: 0px;
+                    height: 4px;
+                    width: 100%;
+                    background-color: var(--bg_second_section);
+                }
+            a {
+                text-decoration: none;
+                padding: 0px 10px;
+                color: inherit;
+                font-weight: bold;
+            }
         }
     }
     
