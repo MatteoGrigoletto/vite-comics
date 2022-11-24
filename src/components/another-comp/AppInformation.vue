@@ -37,6 +37,9 @@ export default{
                 'DC Power Visa',
             ]
         }
+    },
+    components:{
+
     }
 }
 </script>
@@ -72,6 +75,21 @@ export default{
 <style lang="scss" scoped>
 .bg-heros{
     background-image: url('../../assets/img/footer-bg.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 500px;
+        background-image: url('../../assets/img/dc-logo-bg.png') ;
+        height: 500px;
+        color: aliceblue;
+        top: -10%;
+        right: 10%;
+        background-size: cover;
+        overflow: hidden;
+    }
 }
 .information-link{
     padding: 40px 0px;
@@ -94,4 +112,5 @@ export default{
     }
 }
 }
+
 </style>
