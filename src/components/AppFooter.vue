@@ -1,5 +1,6 @@
 <script>
 import AppInformation from './another-comp/AppInformation.vue';
+import socialBar from './another-comp/SocialBar.vue';
 
 export default {
     name: 'AppFooter',
@@ -10,6 +11,7 @@ export default {
   },
   components:{
     AppInformation,
+    socialBar
   }
 }
 </script>
@@ -19,12 +21,14 @@ export default {
             <AppInformation/>
     </section>
     <section class="second-section-footer">
-
+        <socialBar/>
     </section>
 </template>
 
 <style scoped>
-
+.second-section-footer{
+    background-color: var(--bg_footer);
+}
 </style>
 
 

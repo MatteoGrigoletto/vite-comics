@@ -81,10 +81,9 @@ export default{
     &::after{
         position: absolute;
         content: '';
-        width: 500px;
+        width: 450px;
         background-image: url('../../assets/img/dc-logo-bg.png') ;
-        height: 500px;
-        color: aliceblue;
+        height: 450px;
         top: -10%;
         right: 10%;
         background-size: cover;

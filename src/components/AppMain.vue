@@ -32,7 +32,7 @@ export default {
 .first-section-main{
   background-color: var(--secondary_color);
     p{
-        padding: 30px;
+        padding: 50px 0px;
         color: var(--primary_color);
         font-size: 40px;
     }
