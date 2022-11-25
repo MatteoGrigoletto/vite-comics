@@ -24,5 +24,9 @@
     width: 20%;
     color:white;
     text-align: center;
+
+    h4{
+        padding: 5px 0pc;
+    }
 }
 </style>

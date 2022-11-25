@@ -1,6 +1,7 @@
 <script lang="js">
 import navShop from './another-comp/NavShop.vue';
 import AppList from './another-comp/AppList.vue';
+import AppBanner from './another-comp/AppBanner.vue';
 
 export default {
     name: 'AppMain',
@@ -12,6 +13,7 @@ export default {
   components:{
     navShop,
     AppList,
+    AppBanner,
   }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <section class="second-section-main">
       <div class="container">
         <AppList/>
+        <AppBanner text="LOAD MORE"/>
       </div>
     </section>
     <section class="third-section-main">
@@ -43,6 +46,11 @@ export default {
 }
 .second-section-main{
   background-color: var(--secondary_color);
+  text-align: center;
+  
+  button{
+    margin-bottom: 10px;
+  }
 }
 .third-section-main{
   background-color: var(--bg_second_section);
