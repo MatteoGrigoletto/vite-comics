@@ -1,5 +1,6 @@
-<script>
+<script lang="js">
 import navShop from './another-comp/NavShop.vue';
+import AppList from './another-comp/AppList.vue';
 
 export default {
     name: 'AppMain',
@@ -10,34 +11,40 @@ export default {
   },
   components:{
     navShop,
+    AppList,
   }
 }
 </script>
 
 <template>
+  <main>
     <section class="first-section-main">
-         <div class="container">
-            <p> -- Content goes here -- </p>
-        </div>
+         <div class="container"></div>
     </section>
     <section class="second-section-main">
+      <div class="container">
+        <AppList/>
+      </div>
+    </section>
+    <section class="third-section-main">
         <div class="container">
             <navShop/>
         </div>
     </section>
-
+  </main>
 </template>
 
 <style lang="scss" scoped>
+
 .first-section-main{
-  background-color: var(--secondary_color);
-    p{
-        padding: 50px 0px;
-        color: var(--primary_color);
-        font-size: 40px;
-    }
+  background-image: url('../assets/img/jumbotron.jpg');
+  background-size: cover;
+  height: 400px;
 }
 .second-section-main{
+  background-color: var(--secondary_color);
+}
+.third-section-main{
   background-color: var(--bg_second_section);
 }
 </style>

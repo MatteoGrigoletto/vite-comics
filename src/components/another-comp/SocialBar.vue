@@ -33,7 +33,7 @@ export default{
     ul{
         display: flex;
         list-style: none;
-
+        
         li{
             padding: 0px 30px;
             color: var(--bg_second_section);

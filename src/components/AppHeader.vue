@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
 import navBar from './another-comp/nav.vue';
 import logo from './another-comp/logo.vue';
 export default {
@@ -22,7 +22,6 @@ export default {
         <logo/>
         <navBar/>
       </div>
-
     </section>
   </header>
 </template>
@@ -31,6 +30,7 @@ export default {
 
 header{
 padding: 20px 0px;
+
     .first-section-header{
         background-color: var(--primary_color);
           .container{
