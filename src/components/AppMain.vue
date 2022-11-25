@@ -25,8 +25,9 @@ export default {
     </section>
     <section class="second-section-main">
       <div class="container">
+        <AppBanner class="current-film" text=" CURRENT SERIES"/>
         <AppList/>
-        <AppBanner text="LOAD MORE"/>
+        <AppBanner class="load-more" text="LOAD MORE"/>
       </div>
     </section>
     <section class="third-section-main">
@@ -47,8 +48,15 @@ export default {
 .second-section-main{
   background-color: var(--secondary_color);
   text-align: center;
+  position: relative;
   
-  button{
+  .current-film{
+    position: absolute;
+    left: 20%;
+    top: -10px;
+    padding:  5px 30px;
+  }
+  .load-more{
     margin-bottom: 10px;
   }
 }
