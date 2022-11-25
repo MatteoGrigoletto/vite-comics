@@ -28,8 +28,6 @@ export default {
 </template>
 
 <style scoped>
-footer{
-}
 .second-section-footer{
     background-color: var(--bg_footer);
 }
